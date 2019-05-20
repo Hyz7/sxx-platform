@@ -5,6 +5,7 @@ import {BrowserRouter, Route ,Switch} from 'react-router-dom'
 import {Provider} from 'react-redux'
 import MainRoutes from "./routes/index";
 import './style/entry.less'
+import './common/icons/iconfont'
 const App=()=>(
     <Provider store={store}>
         <BrowserRouter>

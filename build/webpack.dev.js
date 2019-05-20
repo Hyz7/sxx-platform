@@ -1,7 +1,5 @@
 const path = require('path');
 const merge = require('webpack-merge');
-// const autoprefixer = require('autoprefixer');
-const webpack = require('webpack')
 const baseConfig = require('./webpack.base.js');
 
 module.exports = merge(baseConfig, {
@@ -12,7 +10,7 @@ module.exports = merge(baseConfig, {
         contentBase: path.join(__dirname,'./dist'),
         historyApiFallback: true,
         inline: true,
-        port: 8888
+        port: 3000
     },
     module:{
         rules:[
@@ -28,7 +26,6 @@ module.exports = merge(baseConfig, {
                         loader: 'postcss-loader',
                         options: { importLoaders: 1 }
                     },
-
                 ]
             },
             {
