@@ -1,5 +1,5 @@
 import {Component} from "react";
-import img from "../../images/zhanwei.png";
+import img from "../../images/img.jpg";
 import React from "react";
 
 class Item3 extends Component{
@@ -31,7 +31,12 @@ class Item3 extends Component{
                     <div className="types-content">
                         <div className="item">
                             <div className="course-card-top">
-                                <img src={img} alt=""/>
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
                                 <div className="course-label">
                                     <label>ReactJS</label>
                                     <label>VueJS</label>
@@ -66,6 +71,399 @@ class Item3 extends Component{
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className="item">
+                            <div className="course-card-top">
+                                <div className="course-banner">
+                                    <img className="img-up" src={img}></img>
+                                    <img className="img-mid" src={img}></img>
+                                    <img className="img-down" src={img}></img>
+                                </div>
+                                {/*<img src={img} alt=""/>*/}
+                                <div className="course-label">
+                                    <label>ReactJS</label>
+                                    <label>VueJS</label>
+                                </div>
+                            </div>
+                            <div className="course-card-content">
+                                <div className="course-card-name">
+                                    全面系统python3入门+进阶课程 零基础学python 小白也能听懂
+                                </div>
+                                <div className="course-card-bottom">
+                                    <div className="course-card-info">
+                                        <span>实战</span>
+                                        <span>初级</span>
+                                        <span>
+                                                <svg className='icon-svg'>
+                                                    <use xlinkHref='#iconyonghuming'></use>
+                                                </svg>
+                                                8439
+                                            </span>
+                                        <span className="course-star-box">
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                                <svg className='icon-svg'><use xlinkHref='#icongongneng_xingxing-'></use></svg>
+                                            </span>
+                                    </div>
+                                    <div className="course-card-price">
+                                        ￥366.00
+                                        <span className="sales-tip">满减</span>
+                                        <span className="sales-tip sales-tip1">分享有礼</span>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

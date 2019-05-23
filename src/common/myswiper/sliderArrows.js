@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 export default class SliderArrows extends Component {
     componentDidMount(){
-        console.log(this.node.offsetLeft)
+        // console.log(this.node.offsetLeft)
     }
     render(){
 
