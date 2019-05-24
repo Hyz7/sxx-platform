@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Swiper from 'react-id-swiper'
 
-import avatar from '../../images/item5/avatar.jpg'
+import avatar from '../../images/item/avatar.jpg'
 class Item5 extends Component {
     render() {
         const params = {

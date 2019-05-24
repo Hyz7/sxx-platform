@@ -23,7 +23,7 @@ class Item3 extends Component{
                         <div className="adv">
                             <img src={img} alt=""/>
                             <div className="adv-content">
-                                <div className="adv-tit">慕课微课</div>
+                                <div className="adv-tit">思学行微课</div>
                                 <div className="adv-desc">超值课程最低一元体验</div>
                             </div>
                         </div>
