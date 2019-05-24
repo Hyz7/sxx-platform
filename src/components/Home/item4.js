@@ -11,7 +11,66 @@ class Item4 extends Component {
                         <span className="tit-icon icon-art-r tit-icon-r"></span>
                     </h3>
                     <dl className='wonderful-list'>
-                        <dd className='item box1'></dd>
+                        <dd className='item box1'>
+                            <label className="topic-label">热门话题</label>
+                            <div className="topic-period green">
+                                <a href="">
+                                    #【内推第2波】#
+                                    <br/>
+                                    打工奋斗7万落京户VS自主创业牧马城市，如何抉择？
+                                </a>
+                                <img src={img} alt=""/>
+                            </div>
+                            <div className="topic-content">
+                                毕业求职？跳槽加薪？纠结滋润加班还是苦练x年自主创业？速速提问互撩，你在撩的极有可能就是你的Boss！激不激动？惊不惊喜？Offer已在这里！你的简历在哪里？Scott老师邮箱：wolf18387@qq.comJeson老师邮箱：jeson@imoocc.com
+                            </div>
+                            <div className="bottom-info green">
+                                <a href="">
+                                    <p>了解详情</p>
+                                    <svg className="icon-svg">
+                                        <use xlinkHref='#iconyoujiantou'></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div className="tit-line">
+                                <span>往期回顾</span>
+                                <div className="line"></div>
+                            </div>
+                            <div className="review-topic">
+                                <div className="topic-period green">
+                                    <a href="">
+                                        #【获奖名单戳查看更多】#
+                                        <br/>
+                                        当我们谈论Java时，我们都谈些什么？
+                                    </a>
+                                    <img src={img} alt=""/>
+                                </div>
+                                <div className="topic-period green">
+                                    <a href="">
+                                        #【获奖名单戳查看更多】#
+                                        <br/>
+                                        当我们谈论Java时，我们都谈些什么？
+                                    </a>
+                                    <img src={img} alt=""/>
+                                </div>
+                                <div className="topic-period green">
+                                    <a href="">
+                                        #【获奖名单戳查看更多】#
+                                        <br/>
+                                        当我们谈论Java时，我们都谈些什么？
+                                    </a>
+                                    <img src={img} alt=""/>
+                                </div>
+                            </div>
+                            <div className="bottom-info green">
+                                <a href="">
+                                    <p>更多往期话题</p>
+                                    <svg className="icon-svg">
+                                        <use xlinkHref='#iconyoujiantou'></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </dd>
                         <dd className='item box2'>
                             <label className='article-label blue'>
                                 <svg className="icon-svg">

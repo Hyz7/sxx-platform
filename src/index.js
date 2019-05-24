@@ -6,6 +6,7 @@ import {Provider} from 'react-redux'
 import MainRoutes from "./routes/index";
 import './style/entry.less'
 import './common/icons/iconfont'
+import 'react-id-swiper/src/styles/css/swiper.css';
 const App=()=>(
     <Provider store={store}>
         <BrowserRouter>
